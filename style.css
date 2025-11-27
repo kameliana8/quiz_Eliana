@@ -1,0 +1,99 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #222;
+}
+
+.navbar .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #eee;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #ff9900;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #ff9900;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* PRODUK SECTION */
+.produk-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.produk-container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.produk-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 220px;
+}
+
+.produk-card img {
+    width: 100%;
+}
+
+.produk-card h3 {
+    margin-top: 10px;
+}
+
+.produk-card p {
+    color: #ff9900;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: #fff;
+    margin-top: 50px;
+}

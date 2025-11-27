@@ -1,0 +1,109 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1a1a1a;
+    padding: 15px 40px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ddd;
+}
+
+.menu a:hover, .menu .active {
+    color: #ff9800;
+}
+
+/* HEADER */
+.header {
+    background: #ff9800;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* CONTACT SECTION */
+.kontak-section {
+    padding: 40px 20px;
+}
+
+.kontak-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.kontak-info, .kontak-form {
+    width: 350px;
+    background: #f5f5f5;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.kontak-info h2, .kontak-form h2 {
+    margin-bottom: 15px;
+}
+
+.kontak-form input,
+.kontak-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+.kontak-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.kontak-form button {
+    width: 100%;
+    padding: 10px;
+    background: #ff9800;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.kontak-form button:hover {
+    background: #e08800;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #1a1a1a;
+    color: white;
+    margin-top: 40px;
+}
